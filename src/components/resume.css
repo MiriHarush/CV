@@ -1,0 +1,172 @@
+/* Style for the form container
+/* form {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for labels */
+  /* label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for input fields */
+  /* input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }  */
+  
+  /* Style for buttons */
+  /* button {
+    background-color: #008CBA;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+  
+  /* Style for the "Add" buttons */
+  /* button[type="button"] {
+    background-color: #f8f9fd;
+    margin-top: 10px;
+
+
+  }
+  
+  /* Style for the link */
+  /* color: #008CBA; */
+  /* a {
+    text-decoration: none;
+    margin-top: 23px;
+    display: inline-block;
+  } */
+  
+  /* Add some spacing between sections */
+  /* h2 {
+    margin-top: 24px;
+    color: #333;
+  } */
+  
+  /* Style for the image */
+  /* img {
+    max-width: 100%;
+    margin-top: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  } */
+  
+  /* Additional styling for a more modern look */
+  /* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* h1 {
+    color: #008CBA;
+  }
+   */
+  /* Optional: Add some hover effects for buttons and links */
+  /* button:hover, a:hover {
+    opacity: 0.8;
+  }  */
+    
+
+
+  form {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;  
+    }
+  /* הוסף padding יותר גדול לתיבות הטקסט */
+  input {
+    width: calc(100% - 16px);
+    padding: 12px; /* שנה גובה פנימי של ה-input */
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* הוסף רווח בין הכפתורים והרקע */
+  button[type="button"] {
+    background-color: #f8f9fd;
+    margin-top: 20px;
+    padding: 14px; /* שנה גובה הכפתור */
+  }
+  
+  /* הוסף margin ללינק */
+  a {
+    text-decoration: none;
+    margin-top: 23px;
+    display: inline-block;
+    margin-bottom: 20px; /* הוסף רווח למטה מהלינק */
+  }
+  
+  /* הוסף padding לכותרת של הסעיפים */
+  h2 {
+    margin-top: 24px;
+    color: #333;
+    /* font-weight: bold; */
+    font-weight: bold;
+    /* font-size: bold; */
+    padding-bottom: 10px; /* הוסף padding לכותרת */
+  }
+  
+  /* הוסף רווח מסביב לתמונה */
+  img {
+    max-width: 100%;
+    margin-top: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* הוסף רווח למטה מהתמונה */
+  }
+  
+  /* עיצוב נוסף למראה עכשווי */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* שורות נוספות בין השורות */
+  }
+  
+  h1 {
+    color: #646cffaa;
+    /* color: #008CBA; */
+
+  }
+
+  .grid-cols-1 {
+
+    grid-template-columns: 1fr;
+    gap: 1rem; 
+  }
+  
+
+  @media (min-width: 768px) {
+    .grid-cols-1 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
